@@ -1,0 +1,159 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>16/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Aug 18 09:29:29 IST 2022</td>
+</tr>
+<tr><td>Total time:</td><td>121 seconds (121375 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='dashboards.SalesReport.DateRange()'><b>DateRange</b><br>Test class: dashboards.SalesReport<br>Parameters: 01-01-2021, 01-01-2022</td>
+<td></td>
+<td>1</td>
+<td>dashboards.SalesReport@2e005c4b</td></tr>
+<tr>
+<td title='dashboards.SalesReport.DateRange()'><b>DateRange</b><br>Test class: dashboards.SalesReport<br>Parameters: 09-24-2020, 09-15-2021</td>
+<td></td>
+<td>1</td>
+<td>dashboards.SalesReport@2e005c4b</td></tr>
+<tr>
+<td title='dashboards.SalesReport.pagenavigation()'><b>pagenavigation</b><br>Test class: dashboards.SalesReport</td>
+<td></td>
+<td>8</td>
+<td>dashboards.SalesReport@2e005c4b</td></tr>
+<tr>
+<td title='dashboards.SalesReport.Suppliernameplusandminus()'><b>Suppliernameplusandminus</b><br>Test class: dashboards.SalesReport</td>
+<td></td>
+<td>12</td>
+<td>dashboards.SalesReport@2e005c4b</td></tr>
+<tr>
+<td title='dashboards.SalesReport.ordernocolumn()'><b>ordernocolumn</b><br>Test class: dashboards.SalesReport<br>Parameters: PH_ODOR29031434_3106_5813352</td>
+<td></td>
+<td>6</td>
+<td>dashboards.SalesReport@2e005c4b</td></tr>
+<tr>
+<td title='dashboards.SalesReport.sort1()'><b>sort1</b><br>Test class: dashboards.SalesReport</td>
+<td></td>
+<td>5</td>
+<td>dashboards.SalesReport@2e005c4b</td></tr>
+<tr>
+<td title='dashboards.SalesReport.Suppliernmaecolumn()'><b>Suppliernmaecolumn</b><br>Test class: dashboards.SalesReport<br>Parameters: Demo Distributor Company Two</td>
+<td></td>
+<td>12</td>
+<td>dashboards.SalesReport@2e005c4b</td></tr>
+<tr>
+<td title='dashboards.SalesReport.DateRange()'><b>DateRange</b><br>Test class: dashboards.SalesReport<br>Parameters: 03-08-2021, 04-21-2022</td>
+<td></td>
+<td>1</td>
+<td>dashboards.SalesReport@2e005c4b</td></tr>
+<tr>
+<td title='dashboards.SalesReport.DateRange()'><b>DateRange</b><br>Test class: dashboards.SalesReport<br>Parameters: 12-26-2019, 09-24-2022</td>
+<td></td>
+<td>0</td>
+<td>dashboards.SalesReport@2e005c4b</td></tr>
+<tr>
+<td title='dashboards.SalesReport.filter()'><b>filter</b><br>Test class: dashboards.SalesReport</td>
+<td></td>
+<td>19</td>
+<td>dashboards.SalesReport@2e005c4b</td></tr>
+<tr>
+<td title='dashboards.SalesReport.DateRange()'><b>DateRange</b><br>Test class: dashboards.SalesReport<br>Parameters: 01-01-2022, 07-28-2022</td>
+<td></td>
+<td>1</td>
+<td>dashboards.SalesReport@2e005c4b</td></tr>
+<tr>
+<td title='dashboards.SalesReport.ordernocolumn()'><b>ordernocolumn</b><br>Test class: dashboards.SalesReport<br>Parameters: PH_ODOR29031434_3106_3642850</td>
+<td></td>
+<td>7</td>
+<td>dashboards.SalesReport@2e005c4b</td></tr>
+<tr>
+<td title='dashboards.SalesReport.signuppage()'><b>signuppage</b><br>Test class: dashboards.SalesReport<br>Parameters: ravindrah+demoreseller1@openspaceservices.com, Round@123</td>
+<td></td>
+<td>6</td>
+<td>dashboards.SalesReport@2e005c4b</td></tr>
+<tr>
+<td title='dashboards.SalesReport.Suppliernmaecolumn()'><b>Suppliernmaecolumn</b><br>Test class: dashboards.SalesReport<br>Parameters: Org Seller 1312</td>
+<td></td>
+<td>11</td>
+<td>dashboards.SalesReport@2e005c4b</td></tr>
+<tr>
+<td title='dashboards.SalesReport.bonusreport()'><b>bonusreport</b><br>Test class: dashboards.SalesReport</td>
+<td></td>
+<td>0</td>
+<td>dashboards.SalesReport@2e005c4b</td></tr>
+<tr>
+<td title='dashboards.SalesReport.sort2()'><b>sort2</b><br>Test class: dashboards.SalesReport</td>
+<td></td>
+<td>3</td>
+<td>dashboards.SalesReport@2e005c4b</td></tr>
+</table><p>
+</body>
+</html>
